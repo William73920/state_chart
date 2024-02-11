@@ -1,0 +1,24 @@
+.state_tree-chart {
+  width: 70%;
+}
+
+.state_tree-chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .state_tree-chart {
+    width: 80%;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .state_tree-chart {
+    width: 90%;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 0;
+  }
+}
